@@ -16,7 +16,6 @@ if(!isClicked){
 stopBtn.addEventListener('click', () =>{
     clearInterval(intervalId);
     isClicked = false;
-    docBody.style.backgroundColor = `#fafafa`;
     startBtn.removeAttribute('disabled');
 });
 
